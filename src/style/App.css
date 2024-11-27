@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Audiowide&family=Montserrat:ital,wght@0,800;1,800&family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/883/original/Green_and_Blue_Modern_Minimalist_Zoom_Virtual_Background.png?1732044788");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App {
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 30px 30px 70px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+  width: 600px;
+  height: 175px;
+  margin-bottom: 30px;
+}

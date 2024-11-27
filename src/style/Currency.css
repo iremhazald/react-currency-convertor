@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Audiowide&family=Montserrat:ital,wght@0,800;1,800&family=Poppins&display=swap");
+
+.currency-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  margin-top: 30px;
+  padding: 50x 30px;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #489b2e;
+  border: 1px solid #489b2e;
+  color: white;
+  cursor: pointer;
+}
+
+.amount {
+  width: 150px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.from-currency-option {
+  width: 70px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.to-currency-option {
+  width: 70px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.result {
+  width: 150px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  .App {
+    margin-bottom: 50px;
+    padding: 20px 15px;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .currency-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .amount,
+  .result {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+  .from-currency-option,
+  .to-currency-option {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+  }
+
+  button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
